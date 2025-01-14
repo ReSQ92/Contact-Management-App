@@ -1,14 +1,8 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
 
@@ -20,7 +14,7 @@ export default function Navbar() {
             variant="h6"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="/"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -36,14 +30,19 @@ export default function Navbar() {
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             
-              <Button variant="outlined" style={{marginRight: "5px"}} sx={{ my: 2, display: 'block' }}>
+              <Button variant="outlined" style={{marginRight: "5px"}} sx={{ my: 2, display: 'block' }} href='/contacts'>
                 Users
               </Button>
 
-              <Button variant="outlined" sx={{ my: 2, display: 'block' }}>
+              <Button variant="outlined" sx={{ my: 2, display: 'block' }} href='/tasks'>
                 Tasks
               </Button>
-        
+
+              {/* <Button variant="outlined" style={{marginRight: "5px"}} sx={{ my: 2, display: 'block' }}>
+                {/* <AddNewContact/> */}
+              {/* </Button> */} 
+
+
           </Box>
         
         </Toolbar>

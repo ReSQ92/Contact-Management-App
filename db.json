@@ -1,149 +1,172 @@
 {
-    "users" :
-    [
-        {
-          "name": "John Doe",
-          "contactNumber": "555-1234",
-          "address": "123 Main St, Sunnyvale, TX"
-        },
-        {
-          "name": "Jane Smith",
-          "contactNumber": "555-5678",
-          "address": "456 Oak Ave, Sunnyvale, TX"
-        },
-        {
-          "name": "Alice Johnson",
-          "contactNumber": "555-8765",
-          "address": "789 Pine Rd, Sunnyvale, TX"
-        },
-        {
-          "name": "Bob Brown",
-          "contactNumber": "555-4321",
-          "address": "321 Cedar Ln, Sunnyvale, TX"
-        },
-        {
-          "name": "Carol White",
-          "contactNumber": "555-6789",
-          "address": "654 Maple Dr, Sunnyvale, TX"
-        },
-        {
-          "name": "David Green",
-          "contactNumber": "555-9876",
-          "address": "987 Birch St, Sunnyvale, TX"
-        },
-        {
-          "name": "Emily Black",
-          "contactNumber": "555-2345",
-          "address": "234 Spruce Ct, Sunnyvale, TX"
-        },
-        {
-          "name": "Frank Gray",
-          "contactNumber": "555-3456",
-          "address": "345 Elm Blvd, Sunnyvale, TX"
-        },
-        {
-          "name": "Grace Lee",
-          "contactNumber": "555-4567",
-          "address": "456 Willow Way, Sunnyvale, TX"
-        },
-        {
-          "name": "Henry King",
-          "contactNumber": "555-5679",
-          "address": "567 Palm St, Sunnyvale, TX"
-        }
+  "users": [
+    {
+      "name": "John Doe",
+      "contactNumber": "555-1234",
+      "address": "123 Main St, Sunnyvale, TX",
+      "id": "65bc"
+    },
+    {
+      "name": "Jane Smith",
+      "contactNumber": "555-5678",
+      "address": "456 Oak Ave, Sunnyvale, TX",
+      "id": "5914"
+    },
+    {
+      "name": "Alice Johnson",
+      "contactNumber": "555-8765",
+      "address": "789 Pine Rd, Sunnyvale, TX",
+      "id": "ac02"
+    },
+    {
+      "name": "Bob Brown",
+      "contactNumber": "555-4321",
+      "address": "321 Cedar Ln, Sunnyvale, TX",
+      "id": "dea2"
+    },
+    {
+      "name": "Carol White",
+      "contactNumber": "555-6789",
+      "address": "654 Maple Dr, Sunnyvale, TX",
+      "id": "6386"
+    },
+    {
+      "name": "David Green",
+      "contactNumber": "555-9876",
+      "address": "987 Birch St, Sunnyvale, TX",
+      "id": "d747"
+    },
+    {
+      "name": "Emily Black",
+      "contactNumber": "555-2345",
+      "address": "234 Spruce Ct, Sunnyvale, TX",
+      "id": "7e62"
+    },
+    {
+      "name": "Frank Gray",
+      "contactNumber": "555-3456",
+      "address": "345 Elm Blvd, Sunnyvale, TX",
+      "id": "82e1"
+    },
+    {
+      "name": "Grace Lee",
+      "contactNumber": "555-4567",
+      "address": "456 Willow Way, Sunnyvale, TX",
+      "id": "a3aa"
+    },
+    {
+      "name": "Henry King",
+      "contactNumber": "555-5679",
+      "address": "567 Palm St, Sunnyvale, TX",
+      "id": "b0fe"
+    },
+    {
+      "id": "b8b1",
+      "name": "Sudesh Gama",
+      "contactNumber": "9728324253",
+      "address": "8367 Marotto St, Garland Tx - 75043"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Daily Chores",
+      "tasks": [
+        "Make the bed",
+        "Wash dishes",
+        "Take out the trash",
+        "Water the plants"
       ],
-
-      "tasks":
-        [
-          {
-            "title": "Daily Chores",
-            "tasks": [
-              "Make the bed",
-              "Wash dishes",
-              "Take out the trash",
-              "Water the plants"
-            ]
-          },
-          {
-            "title": "Work Tasks",
-            "tasks": [
-              "Respond to emails",
-              "Prepare presentation",
-              "Attend team meeting",
-              "Review project proposals"
-            ]
-          },
-          {
-            "title": "Grocery Shopping",
-            "tasks": [
-              "Buy milk",
-              "Get eggs",
-              "Purchase bread",
-              "Pick up fruits"
-            ]
-          },
-          {
-            "title": "Workout Routine",
-            "tasks": [
-              "Warm-up exercises",
-              "Cardio workout",
-              "Strength training",
-              "Cool down"
-            ]
-          },
-          {
-            "title": "Weekend Plans",
-            "tasks": [
-              "Visit the park",
-              "Catch up on reading",
-              "Meet friends for lunch",
-              "Watch a movie"
-            ]
-          },
-          {
-            "title": "Travel Preparation",
-            "tasks": [
-              "Book flight tickets",
-              "Reserve hotel",
-              "Pack luggage",
-              "Arrange transport"
-            ]
-          },
-          {
-            "title": "Home Improvement",
-            "tasks": [
-              "Paint the living room",
-              "Fix the leaky faucet",
-              "Install new shelves",
-              "Organize the garage"
-            ]
-          },
-          {
-            "title": "Event Planning",
-            "tasks": [
-              "Send invitations",
-              "Order catering",
-              "Decorate venue",
-              "Create event schedule"
-            ]
-          },
-          {
-            "title": "Study Schedule",
-            "tasks": [
-              "Review lecture notes",
-              "Complete assignments",
-              "Practice problems",
-              "Prepare for exams"
-            ]
-          },
-          {
-            "title": "Self-Care Routine",
-            "tasks": [
-              "Meditate",
-              "Journal",
-              "Take a relaxing bath",
-              "Read a book"
-            ]
-          }
-        ]
+      "id": "7d91"
+    },
+    {
+      "title": "Work Tasks",
+      "tasks": [
+        "Respond to emails",
+        "Prepare presentation",
+        "Attend team meeting",
+        "Review project proposals"
+      ],
+      "id": "fb35"
+    },
+    {
+      "title": "Grocery Shopping",
+      "tasks": [
+        "Buy milk",
+        "Get eggs",
+        "Purchase bread",
+        "Pick up fruits"
+      ],
+      "id": "b9c4"
+    },
+    {
+      "title": "Workout Routine",
+      "tasks": [
+        "Warm-up exercises",
+        "Cardio workout",
+        "Strength training",
+        "Cool down"
+      ],
+      "id": "72cd"
+    },
+    {
+      "title": "Weekend Plans",
+      "tasks": [
+        "Visit the park",
+        "Catch up on reading",
+        "Meet friends for lunch",
+        "Watch a movie"
+      ],
+      "id": "bc42"
+    },
+    {
+      "title": "Travel Preparation",
+      "tasks": [
+        "Book flight tickets",
+        "Reserve hotel",
+        "Pack luggage",
+        "Arrange transport"
+      ],
+      "id": "ec80"
+    },
+    {
+      "title": "Home Improvement",
+      "tasks": [
+        "Paint the living room",
+        "Fix the leaky faucet",
+        "Install new shelves",
+        "Organize the garage"
+      ],
+      "id": "cd48"
+    },
+    {
+      "title": "Event Planning",
+      "tasks": [
+        "Send invitations",
+        "Order catering",
+        "Decorate venue",
+        "Create event schedule"
+      ],
+      "id": "d8ef"
+    },
+    {
+      "title": "Study Schedule",
+      "tasks": [
+        "Review lecture notes",
+        "Complete assignments",
+        "Practice problems",
+        "Prepare for exams"
+      ],
+      "id": "9303"
+    },
+    {
+      "title": "Self-Care Routine",
+      "tasks": [
+        "Meditate",
+        "Journal",
+        "Take a relaxing bath",
+        "Read a book"
+      ],
+      "id": "7fd5"
+    }
+  ]
 }

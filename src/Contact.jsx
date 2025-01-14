@@ -3,9 +3,13 @@ import CardContent from "@mui/material/CardContent";
 import CardActions from "@mui/material/CardActions";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
 
-export default function Contact({ contact }) {
+export default function Contact({ contact, deleteContact }) {
+
+  function handleDelete(id) {
+    deleteContact(id);
+  }
+
   return (
       <Card variant="outlined">
         <CardContent >
@@ -21,7 +25,13 @@ export default function Contact({ contact }) {
         </CardContent>
         <CardActions>
           <Button size="small" variant="contained">Edit Contact</Button>
-          <Button size="small" variant ="contained" color="error">Delete Contact</Button>
+          <Button 
+          size="small" 
+          variant ="contained" 
+          color="error" 
+          onClick={() => handleDelete(contact.id)}
+          >
+            Delete Contact</Button>
         </CardActions>
       </Card>
   );

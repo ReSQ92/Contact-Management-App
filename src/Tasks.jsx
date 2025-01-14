@@ -1,20 +1,31 @@
-export default function Tasks({allTasks}) {
+import { useState, useEffect } from "react";
+
+export default function Tasks() {
+    const [allTasks, setAllTasks] = useState([]);
+
+    useEffect(()=>{
+        getAllTasks()
+    },[])
+
+    async function getAllTasks() {
+        const allT = (await fetch("http://localhost:3001/tasks")).json();
+        const t = await allT;
+        setAllTasks(t);
+    }
+
     return (
-        <>
         <div>
             {
-                allTasks.map((task)=>{
+                allTasks.map((task, index)=>{
                     return (
-                        <div className="tasks">
+                        <div className="tasks" key={task.id}>
                             <h3>TASK: {task.title}</h3>
                             <h4>Sub-Tasks:</h4>
                             <ul>
                                 {
-                                    task.tasks.map((t)=>{
+                                    task.tasks.map((t, index)=>{
                                         return (
-                                            
-                                            <li>{t}</li>
-                                           
+                                            <li key={index}>{t}</li>
                                         )
                                     })
                                 }
@@ -27,6 +38,5 @@ export default function Tasks({allTasks}) {
             }
             
         </div>
-        </>
     )
 }
